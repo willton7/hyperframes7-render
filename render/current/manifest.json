@@ -1,0 +1,61 @@
+{
+  "protocol": "Clean-Slate Protocol",
+  "project": "akee-30s-cinematic-promo",
+  "projectRoot": "render/current/akee-30s",
+  "projectIndex": "render/current/akee-30s/index.html",
+  "hubFile": "render/current/index.html",
+  "activeRenderDir": "render/current",
+  "activeRenderFile": "render/current/index.html",
+  "manifestFile": "render/current/manifest.json",
+  "mirrorStagingDir": ".render-work/render-staging",
+  "renderMode": "github-actions-only",
+  "localFinalRenderAllowed": false,
+  "durationSeconds": 30,
+  "segmentDurationSeconds": 5,
+  "activeRenderTargets": [
+    "render/current/akee-30s/mobile/segment-01.html",
+    "render/current/akee-30s/mobile/segment-02.html",
+    "render/current/akee-30s/mobile/segment-03.html",
+    "render/current/akee-30s/mobile/segment-04.html",
+    "render/current/akee-30s/mobile/segment-05.html",
+    "render/current/akee-30s/mobile/segment-06.html",
+    "render/current/akee-30s/web/segment-01.html",
+    "render/current/akee-30s/web/segment-02.html",
+    "render/current/akee-30s/web/segment-03.html",
+    "render/current/akee-30s/web/segment-04.html",
+    "render/current/akee-30s/web/segment-05.html",
+    "render/current/akee-30s/web/segment-06.html"
+  ],
+  "finalOutputs": [
+    "akee-mobile-30s.mp4",
+    "akee-web-30s.mp4"
+  ],
+  "variants": {
+    "mobile": {
+      "size": "1080x1920",
+      "aspectRatio": "9:16",
+      "projectRoot": "render/current/akee-30s/mobile",
+      "segments": [
+        "render/current/akee-30s/mobile/segment-01.html",
+        "render/current/akee-30s/mobile/segment-02.html",
+        "render/current/akee-30s/mobile/segment-03.html",
+        "render/current/akee-30s/mobile/segment-04.html",
+        "render/current/akee-30s/mobile/segment-05.html",
+        "render/current/akee-30s/mobile/segment-06.html"
+      ]
+    },
+    "web": {
+      "size": "1920x1080",
+      "aspectRatio": "16:9",
+      "projectRoot": "render/current/akee-30s/web",
+      "segments": [
+        "render/current/akee-30s/web/segment-01.html",
+        "render/current/akee-30s/web/segment-02.html",
+        "render/current/akee-30s/web/segment-03.html",
+        "render/current/akee-30s/web/segment-04.html",
+        "render/current/akee-30s/web/segment-05.html",
+        "render/current/akee-30s/web/segment-06.html"
+      ]
+    }
+  }
+}

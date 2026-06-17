@@ -1,0 +1,127 @@
+(function () {
+  const scene = (id, variant, type, copyAlign, data) => ({
+    id,
+    variant,
+    type,
+    copyAlign,
+    ...data,
+  });
+
+  window.AKEE_SCENES = {
+    "mobile-01": scene("mobile-01", "mobile", "void", "center", {
+      compositionId: "akee-mobile-01",
+      seed: 101,
+      kicker: "THE QUESTION VOID",
+      title: "Ask anything.",
+      subline: "Fragments of curiosity drift apart, waiting for ignition.",
+      ghost: "QUESTION",
+      fragments: ["Why does…", "How can I…", "What happened when…", "Explain this…"],
+    }),
+    "web-01": scene("web-01", "web", "void", "left", {
+      compositionId: "akee-web-01",
+      seed: 102,
+      kicker: "THE QUESTION VOID",
+      title: "Ask anything.",
+      subline: "Fragments of curiosity drift apart, waiting for ignition.",
+      ghost: "QUESTION",
+      fragments: ["Why does…", "How can I…", "What happened when…", "Explain this…"],
+    }),
+
+    "mobile-02": scene("mobile-02", "mobile", "ignite", "center", {
+      compositionId: "akee-mobile-02",
+      seed: 201,
+      kicker: "THE KNOWLEDGE ENGINE",
+      title: "Watch knowledge assemble.",
+      subline: "Concepts, context, and sources lock into one intelligent field.",
+      ghost: "ASSEMBLE",
+      labels: ["Concepts", "Context", "Examples", "Sources", "Timeline", "Visual Map"],
+    }),
+    "web-02": scene("web-02", "web", "ignite", "left", {
+      compositionId: "akee-web-02",
+      seed: 202,
+      kicker: "THE KNOWLEDGE ENGINE",
+      title: "Watch knowledge assemble.",
+      subline: "Concepts, context, and sources lock into one intelligent field.",
+      ghost: "ASSEMBLE",
+      labels: ["Concepts", "Context", "Examples", "Sources", "Timeline", "Visual Map"],
+    }),
+
+    "mobile-03": scene("mobile-03", "mobile", "layers", "center", {
+      compositionId: "akee-mobile-03",
+      seed: 301,
+      kicker: "IMMERSIVE LEARNING",
+      title: "Visuals. Timelines. Videos.",
+      subline: "Guided exploration.",
+      ghost: "EXPLORE",
+      labels: ["Timeline", "Visual Map", "Video", "Explain", "Path"],
+    }),
+    "web-03": scene("web-03", "web", "layers", "left", {
+      compositionId: "akee-web-03",
+      seed: 302,
+      kicker: "IMMERSIVE LEARNING",
+      title: "Visuals. Timelines. Videos.",
+      subline: "Guided exploration.",
+      ghost: "EXPLORE",
+      labels: ["Timeline", "Visual Map", "Video", "Explain", "Path"],
+    }),
+
+    "mobile-04": scene("mobile-04", "mobile", "clarity", "center", {
+      compositionId: "akee-mobile-04",
+      seed: 401,
+      kicker: "FROM CHAOS TO PATH",
+      title: "From confusion to clarity.",
+      subline: "A guide line turns noise into a readable learning path.",
+      ghost: "CLARITY",
+      steps: ["Start", "Understand", "Explore", "Connect", "Master"],
+    }),
+    "web-04": scene("web-04", "web", "clarity", "left", {
+      compositionId: "akee-web-04",
+      seed: 402,
+      kicker: "FROM CHAOS TO PATH",
+      title: "From confusion to clarity.",
+      subline: "A guide line turns noise into a readable learning path.",
+      ghost: "CLARITY",
+      steps: ["Start", "Understand", "Explore", "Connect", "Master"],
+    }),
+
+    "mobile-05": scene("mobile-05", "mobile", "engine", "center", {
+      compositionId: "akee-mobile-05",
+      seed: 501,
+      kicker: "THE EXPERIENCE ENGINE",
+      title: "Knowledge becomes an experience.",
+      subline: "Powered by AKEE.",
+      ghost: "ENGINE",
+      labels: ["Question input", "Learning path", "Timeline", "Visual tiles"],
+    }),
+    "web-05": scene("web-05", "web", "engine", "left", {
+      compositionId: "akee-web-05",
+      seed: 502,
+      kicker: "THE EXPERIENCE ENGINE",
+      title: "Knowledge becomes an experience.",
+      subline: "Powered by AKEE.",
+      ghost: "ENGINE",
+      labels: ["Question input", "Learning path", "Timeline", "Visual tiles"],
+    }),
+
+    "mobile-06": scene("mobile-06", "mobile", "brand", "center", {
+      compositionId: "akee-mobile-06",
+      seed: 601,
+      kicker: "FINAL REVEAL",
+      title: "AKEE",
+      subline: "Ace Knowledge Experience Engine",
+      ghost: "AKEE",
+      cta: "Turn questions into experiences.",
+      url: "akeeknowledge.xyz",
+    }),
+    "web-06": scene("web-06", "web", "brand", "left", {
+      compositionId: "akee-web-06",
+      seed: 602,
+      kicker: "FINAL REVEAL",
+      title: "AKEE",
+      subline: "Ace Knowledge Experience Engine",
+      ghost: "AKEE",
+      cta: "Turn questions into experiences.",
+      url: "akeeknowledge.xyz",
+    }),
+  };
+})();

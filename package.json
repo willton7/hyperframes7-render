@@ -1,0 +1,13 @@
+{
+  "name": "hyperframes7-clean-slate",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "clean-slate:prepare": "node scripts/clean-slate-prepare.mjs",
+    "clean-slate:verify": "node scripts/clean-slate-verify.mjs",
+    "clean-slate": "npm run clean-slate:prepare && npm run clean-slate:verify"
+  }
+}
